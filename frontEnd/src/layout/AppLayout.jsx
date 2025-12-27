@@ -5,8 +5,10 @@ import Sidebar from './Sidebar'
 const AppLayout = () => {
     return (
         <>
-            <Topbar />
-            <main><Sidebar /></main>
+            <div className='bg-gray-100'>
+                <Topbar />
+                <main><Sidebar /></main>
+            </div>
         </>
     )
 }
